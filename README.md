@@ -5,7 +5,8 @@
 
 # Members
 - Paulo Neil A. Sevilla
-
+- Johnella Llana Muriel A. Gutay
+- 
 ## Prerequisites
 - CachyOS (Arch Linux)
 - Laravel 12 installed
