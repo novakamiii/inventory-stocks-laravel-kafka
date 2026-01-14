@@ -1,5 +1,11 @@
 # Laravel Kafka Inventory System - Setup Guide
 
+## BSIT 3-1 PUP-SPC
+## ELEC IT E-1 - IT ELECTIVE 
+
+# Members
+- Paulo Neil A. Sevilla
+
 ## Prerequisites
 - CachyOS (Arch Linux)
 - Laravel 12 installed
