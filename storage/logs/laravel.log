@@ -300,3 +300,50 @@ Did you mean one of these?
 [2026-01-14 06:59:39] local.INFO: Kafka broker available at: localhost:9092  
 [2026-01-14 06:59:50] local.INFO: Kafka broker available at: localhost:9092  
 [2026-01-14 06:59:52] local.INFO: Kafka message published to topic 'orders': {"product_id":3,"product_name":"Product C","quantity":41,"remaining_stock":459,"timestamp":"2026-01-14T06:59:50+00:00"}  
+[2026-01-14 07:50:17] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:51:31] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:51:34] local.INFO: Kafka message published to topic 'orders': {"product_id":3,"product_name":"Product C","quantity":5,"remaining_stock":454,"timestamp":"2026-01-14T07:51:31+00:00"}  
+[2026-01-14 07:51:46] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:51:49] local.INFO: Kafka message published to topic 'orders': {"product_id":1,"product_name":"Product A","quantity":494,"remaining_stock":6,"timestamp":"2026-01-14T07:51:46+00:00","simulated_low_stock":true}  
+[2026-01-14 07:51:51] local.INFO: Kafka message published to topic 'stock-alerts': {"product_id":1,"product_name":"Product A","stock":6,"alert_type":"simulated_low_stock","timestamp":"2026-01-14T07:51:49+00:00"}  
+[2026-01-14 07:51:54] local.INFO: Kafka message published to topic 'orders': {"product_id":2,"product_name":"Product B","quantity":495,"remaining_stock":5,"timestamp":"2026-01-14T07:51:51+00:00","simulated_low_stock":true}  
+[2026-01-14 07:51:56] local.INFO: Kafka message published to topic 'stock-alerts': {"product_id":2,"product_name":"Product B","stock":5,"alert_type":"simulated_low_stock","timestamp":"2026-01-14T07:51:54+00:00"}  
+[2026-01-14 07:51:59] local.INFO: Kafka message published to topic 'orders': {"product_id":3,"product_name":"Product C","quantity":451,"remaining_stock":3,"timestamp":"2026-01-14T07:51:56+00:00","simulated_low_stock":true}  
+[2026-01-14 07:52:01] local.INFO: Kafka message published to topic 'stock-alerts': {"product_id":3,"product_name":"Product C","stock":3,"alert_type":"simulated_low_stock","timestamp":"2026-01-14T07:51:59+00:00"}  
+[2026-01-14 07:52:14] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:52:17] local.INFO: Kafka message published to topic 'restock': {"product_id":1,"product_name":"Product A","new_stock":500,"timestamp":"2026-01-14T07:52:14+00:00"}  
+[2026-01-14 07:52:19] local.INFO: Kafka message published to topic 'restock': {"product_id":2,"product_name":"Product B","new_stock":500,"timestamp":"2026-01-14T07:52:17+00:00"}  
+[2026-01-14 07:52:22] local.INFO: Kafka message published to topic 'restock': {"product_id":3,"product_name":"Product C","new_stock":500,"timestamp":"2026-01-14T07:52:19+00:00"}  
+[2026-01-14 07:52:40] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:54:39] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:54:41] local.INFO: Kafka message published to topic 'orders': {"product_id":3,"product_name":"Product C","quantity":21,"remaining_stock":479,"timestamp":"2026-01-14T07:54:39+00:00"}  
+[2026-01-14 07:54:50] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:54:53] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:54:55] local.INFO: Kafka message published to topic 'orders': {"product_id":1,"product_name":"Product A","quantity":23,"remaining_stock":477,"timestamp":"2026-01-14T07:54:53+00:00"}  
+[2026-01-14 07:54:58] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:55:01] local.INFO: Kafka message published to topic 'orders': {"product_id":2,"product_name":"Product B","quantity":14,"remaining_stock":486,"timestamp":"2026-01-14T07:54:58+00:00"}  
+[2026-01-14 07:55:02] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:55:05] local.INFO: Kafka message published to topic 'orders': {"product_id":2,"product_name":"Product B","quantity":37,"remaining_stock":449,"timestamp":"2026-01-14T07:55:02+00:00"}  
+[2026-01-14 07:55:06] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:55:08] local.INFO: Kafka message published to topic 'orders': {"product_id":1,"product_name":"Product A","quantity":33,"remaining_stock":444,"timestamp":"2026-01-14T07:55:06+00:00"}  
+[2026-01-14 07:55:10] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:55:13] local.INFO: Kafka message published to topic 'orders': {"product_id":1,"product_name":"Product A","quantity":45,"remaining_stock":399,"timestamp":"2026-01-14T07:55:10+00:00"}  
+[2026-01-14 07:55:15] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:55:17] local.INFO: Kafka message published to topic 'orders': {"product_id":1,"product_name":"Product A","quantity":391,"remaining_stock":8,"timestamp":"2026-01-14T07:55:15+00:00","simulated_low_stock":true}  
+[2026-01-14 07:55:20] local.INFO: Kafka message published to topic 'stock-alerts': {"product_id":1,"product_name":"Product A","stock":8,"alert_type":"simulated_low_stock","timestamp":"2026-01-14T07:55:17+00:00"}  
+[2026-01-14 07:55:22] local.INFO: Kafka message published to topic 'orders': {"product_id":2,"product_name":"Product B","quantity":441,"remaining_stock":8,"timestamp":"2026-01-14T07:55:20+00:00","simulated_low_stock":true}  
+[2026-01-14 07:55:24] local.INFO: Kafka message published to topic 'stock-alerts': {"product_id":2,"product_name":"Product B","stock":8,"alert_type":"simulated_low_stock","timestamp":"2026-01-14T07:55:22+00:00"}  
+[2026-01-14 07:55:27] local.INFO: Kafka message published to topic 'orders': {"product_id":3,"product_name":"Product C","quantity":469,"remaining_stock":10,"timestamp":"2026-01-14T07:55:24+00:00","simulated_low_stock":true}  
+[2026-01-14 07:55:29] local.INFO: Kafka message published to topic 'stock-alerts': {"product_id":3,"product_name":"Product C","stock":10,"alert_type":"simulated_low_stock","timestamp":"2026-01-14T07:55:27+00:00"}  
+[2026-01-14 07:56:46] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:56:49] local.INFO: Kafka message published to topic 'restock': {"product_id":1,"product_name":"Product A","new_stock":500,"timestamp":"2026-01-14T07:56:46+00:00"}  
+[2026-01-14 07:56:51] local.INFO: Kafka message published to topic 'restock': {"product_id":2,"product_name":"Product B","new_stock":500,"timestamp":"2026-01-14T07:56:49+00:00"}  
+[2026-01-14 07:56:53] local.INFO: Kafka message published to topic 'restock': {"product_id":3,"product_name":"Product C","new_stock":500,"timestamp":"2026-01-14T07:56:51+00:00"}  
+[2026-01-14 07:57:36] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:57:41] local.INFO: Kafka broker available at: localhost:9092  
+[2026-01-14 07:57:44] local.INFO: Kafka message published to topic 'orders': {"product_id":1,"product_name":"Product A","quantity":492,"remaining_stock":8,"timestamp":"2026-01-14T07:57:41+00:00","simulated_low_stock":true}  
+[2026-01-14 07:57:46] local.INFO: Kafka message published to topic 'stock-alerts': {"product_id":1,"product_name":"Product A","stock":8,"alert_type":"simulated_low_stock","timestamp":"2026-01-14T07:57:44+00:00"}  
+[2026-01-14 07:57:48] local.INFO: Kafka message published to topic 'orders': {"product_id":2,"product_name":"Product B","quantity":495,"remaining_stock":5,"timestamp":"2026-01-14T07:57:46+00:00","simulated_low_stock":true}  
+[2026-01-14 07:57:51] local.INFO: Kafka message published to topic 'stock-alerts': {"product_id":2,"product_name":"Product B","stock":5,"alert_type":"simulated_low_stock","timestamp":"2026-01-14T07:57:48+00:00"}  
+[2026-01-14 07:57:53] local.INFO: Kafka message published to topic 'orders': {"product_id":3,"product_name":"Product C","quantity":492,"remaining_stock":8,"timestamp":"2026-01-14T07:57:51+00:00","simulated_low_stock":true}  
+[2026-01-14 07:57:55] local.INFO: Kafka message published to topic 'stock-alerts': {"product_id":3,"product_name":"Product C","stock":8,"alert_type":"simulated_low_stock","timestamp":"2026-01-14T07:57:53+00:00"}  

@@ -5,6 +5,16 @@ namespace App\Models {
     /**
      * App\Models\Product
      *
+     * @property \Illuminate\Support\Carbon|null $updated_at
+     * @property \Illuminate\Support\Carbon|null $created_at
+     * @property int $stock
+     * @property string $name
+     * @property int $id
+     * @method static \Illuminate\Database\Eloquent\Builder<Product>|Product whereId($value)
+     * @method static \Illuminate\Database\Eloquent\Builder<Product>|Product whereName($value)
+     * @method static \Illuminate\Database\Eloquent\Builder<Product>|Product whereStock($value)
+     * @method static \Illuminate\Database\Eloquent\Builder<Product>|Product whereCreatedAt($value)
+     * @method static \Illuminate\Database\Eloquent\Builder<Product>|Product whereUpdatedAt($value)
      * @method static \Illuminate\Database\Eloquent\Builder<Product>|Product newModelQuery()
      * @method static \Illuminate\Database\Eloquent\Builder<Product>|Product newQuery()
      * @method static \Illuminate\Database\Eloquent\Builder<Product>|Product query()
