@@ -1,7 +1,7 @@
 # Laravel Kafka Inventory System - Setup Guide
 
-## BSIT 3-1 PUP-SPC
-## ELEC IT E-1 - IT ELECTIVE 
+- BSIT 3-1 PUP-SPC
+- ELEC IT E-1 - IT ELECTIVE 
 
 # Members
 - Paulo Neil A. Sevilla
