@@ -7,6 +7,8 @@
 - Paulo Neil A. Sevilla
 - Johnella Llana Muriel A. Gutay
 - James Bond M. Ranchez
+- Jazper Angelo M. Bonagua
+
 ## Prerequisites
 - CachyOS (Arch Linux)
 - Laravel 12 installed
