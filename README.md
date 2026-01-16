@@ -9,6 +9,7 @@
 - Johnella Llana Muriel A. Gutay
 - James Bond M. Ranchez
 - Jazper Angelo M. Bonagua
+- Jhonabelle H. Palec
 
 ## System ran on:
 - CachyOS (Arch Linux)
