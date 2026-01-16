@@ -4,12 +4,13 @@
 - ELEC IT E-1 - IT ELECTIVE 
 
 # Members
+**GROUP 4**
 - Paulo Neil A. Sevilla
 - Johnella Llana Muriel A. Gutay
 - James Bond M. Ranchez
 - Jazper Angelo M. Bonagua
 
-## Prerequisites
+## System Ran on:
 - CachyOS (Arch Linux)
 - Laravel 12 installed
 - Kafka installed and running
@@ -41,7 +42,7 @@ php artisan db:seed --class=ProductSeeder
 
 ### 5. Start Laravel
 ```bash
-php artisan serve
+composer run dev
 ```
 
 ### 6. Access Application
@@ -51,6 +52,8 @@ Open browser: `http://localhost:8000`
 
 ## Optional: Monitor Kafka Messages
 
+    This only applicable to the AUR (Arch User Repository) version of Apache Kafka
+    
 ### List Topics
 ```bash
 kafka-topics.sh --bootstrap-server localhost:9092 --list
@@ -78,6 +81,7 @@ kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic restock --fr
 - **Simulate Low Stock**: Reduce all products to 3-10 items
 - **Check Low Stock**: Show alerts for products ≤10 stock
 - **Restock All**: Reset all products to 500 units
+- **Console Log**: For better view of logs and data flow.
 
 ## Notes
 - Application works without Kafka (fallback mode)
