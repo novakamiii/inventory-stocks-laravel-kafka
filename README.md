@@ -10,8 +10,10 @@
 - James Bond M. Ranchez
 - Jazper Angelo M. Bonagua
 
-## System Ran on:
+## System ran on:
 - CachyOS (Arch Linux)
+
+## Prerequisites:
 - Laravel 12 installed
 - Kafka installed and running
 - PHP 8.4+
