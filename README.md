@@ -54,7 +54,7 @@ Open browser: `http://localhost:8000`
 
 ## Optional: Monitor Kafka Messages
 
-    This only applicable to the AUR (Arch User Repository) version of Apache Kafka
+>This only applicable to the AUR (Arch User Repository) version of Apache Kafka
     
 ### List Topics
 ```bash
