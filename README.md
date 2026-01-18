@@ -14,7 +14,7 @@
 - Danzel M. Bordeos
 - Jhondrei V. Apeta
 - Arhvin Tedimar B. Gaman
-
+- Jonathan M. Rioveros
 ## System ran on:
 - CachyOS (Arch Linux)
 
