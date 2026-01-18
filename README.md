@@ -10,6 +10,7 @@
 - James Bond M. Ranchez
 - Jazper Angelo M. Bonagua
 - Jhonabelle H. Palec
+- James Martin F. Dio
 
 ## System ran on:
 - CachyOS (Arch Linux)
