@@ -12,6 +12,7 @@
 - Jhonabelle H. Palec
 - James Martin F. Dio
 - Danzel M. Bordeos
+- Jhondrei V. Apeta
 
 ## System ran on:
 - CachyOS (Arch Linux)
