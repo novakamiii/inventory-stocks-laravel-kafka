@@ -13,6 +13,7 @@
 - James Martin F. Dio
 - Danzel M. Bordeos
 - Jhondrei V. Apeta
+- Arhvin Tedimar B. Gaman
 
 ## System ran on:
 - CachyOS (Arch Linux)
