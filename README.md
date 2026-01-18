@@ -11,6 +11,7 @@
 - Jazper Angelo M. Bonagua
 - Jhonabelle H. Palec
 - James Martin F. Dio
+- Danzel M. Bordeos
 
 ## System ran on:
 - CachyOS (Arch Linux)
